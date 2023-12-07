@@ -1,0 +1,82 @@
+.main {
+    background-color: #4F7171;
+    padding-top: 60px;
+}
+
+.aboutMe {
+    text-align: -webkit-center;
+    padding-bottom: 50px;
+}
+
+.lineDIv {
+    width: 168px;
+    height: 1px;
+    border: 1px solid #3F4551;
+}
+
+.Abouttxt {
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fec544;
+    letter-spacing: 1px;
+}
+
+.aboutInformation {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.backImg {
+    margin-right: 68px;
+
+    img {
+        width: 510px;
+        height: 502px;
+        padding-bottom: 70px;
+    }
+}
+
+.blockTitle {
+    color: white;
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 18px;
+}
+
+.blockSubTitle {
+    font-size: 24px;
+    font-weight: 300;
+    color: #fec544;
+    margin-bottom: 18px;
+}
+
+.blockTxt {
+    color: #a9adb8;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6em;
+    width: 528px;
+}
+
+.ulstyles {
+    list-style: none;
+    margin-left: 0px;
+    color: #a9adb8;
+
+    li {
+        margin-bottom: 14px;
+    }
+}
+
+.btnCV {
+    background-color: #fec544;
+    color: #070d1b;
+    border-radius: 50px;
+    font-weight: 500;
+    border: none;
+    padding: 12px 2em;
+    font-size: 16px;
+}

@@ -2,8 +2,15 @@
     display: flex;
     background-image: url("../../../../public/pexels-photo-540518.jpg");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    background-position-y: bottom;
     justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.textDiv{
+    margin-top: 70px;
+    margin-bottom: 150px;
 }
 
 .helloIm {
@@ -16,6 +23,7 @@
     color: #fdfeff;
     font-size: 120px;
     font-weight: 900;
+    line-height: 115px;
 }
 
 .visual {
@@ -31,6 +39,13 @@
     border-radius: 50px;
     font-weight: 500;
     border: none;
-    padding: 12px 1.5em;
+    padding: 12px 3.5em;
     font-size: 16px;
+}
+
+.hero {
+    will-change: transform;
+    transform: perspective(300px) rotateX(0deg) rotateY(0deg);
+    max-width: 400px;
+    max-height: 400px;
 }
