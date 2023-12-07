@@ -10,7 +10,7 @@ const About = () => {
             </div>
             <div className={`container ${style.aboutInformation}`}>
                 <div className={style.backImg}>
-                    <img src="about.jpg" alt="about" />
+                    <img src="apple.jpg" alt="about" />
                 </div>
                 <div>
                     <h2 className={style.blockTitle}>Hi There! I'm Edward Davis</h2>
@@ -25,8 +25,7 @@ const About = () => {
                                 :
                                 <span style={{ marginLeft: "7px" }}>{val.value}</span>
                             </li>
-                        )
-                        }
+                        )}
                     </ul>
                     <div>
                         <button className={style.btnCV}>Download CV</button>
