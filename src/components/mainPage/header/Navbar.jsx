@@ -1,7 +1,7 @@
 import style from "./style.module.scss"
 import { headerLink } from "../../../site/Constant";
 import { MenuOutlined, CloseOutlined } from "@ant-design/icons";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false)

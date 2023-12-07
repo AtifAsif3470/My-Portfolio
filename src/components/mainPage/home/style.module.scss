@@ -1,0 +1,36 @@
+.homeImg {
+    display: flex;
+    background-image: url("../../../../public/pexels-photo-540518.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    justify-content: space-between;
+}
+
+.helloIm {
+    color: #fec544;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.edward {
+    color: #fdfeff;
+    font-size: 120px;
+    font-weight: 900;
+}
+
+.visual {
+    font-size: 36px;
+    margin-bottom: 41px;
+    font-weight: 300;
+    color: #a9adb8;
+}
+
+.btnHire {
+    background-color: #fec544;
+    color: #070d1b;
+    border-radius: 50px;
+    font-weight: 500;
+    border: none;
+    padding: 12px 1.5em;
+    font-size: 16px;
+}
