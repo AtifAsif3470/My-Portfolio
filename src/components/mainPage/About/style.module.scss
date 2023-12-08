@@ -63,11 +63,17 @@
 
 .ulstyles {
     list-style: none;
-    margin-left: 0px;
+    padding-left: 0px;
     color: #a9adb8;
 
     li {
         margin-bottom: 14px;
+    }
+
+    li span:first-child {
+        display: inline-block;
+        width: 108px;
+        margin-right: -5px;
     }
 }
 

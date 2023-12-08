@@ -21,8 +21,7 @@ const About = () => {
                     <ul className={style.ulstyles}>
                         {UserData.map((val, ind) =>
                             <li key={ind}>
-                                <span style={{ marginRight: "30px" }}>{val.key}</span>
-                                :
+                                <span style={{marginRight:"30px"}}>{val.key}</span> :
                                 <span style={{ marginLeft: "7px" }}>{val.value}</span>
                             </li>
                         )}

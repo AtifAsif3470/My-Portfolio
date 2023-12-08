@@ -8,9 +8,9 @@ export const headerLink = [
 ]
 
 export const UserData = [
-    { key: 'Birthday', value: 'May 07, 1990' },
+    { key: 'Birthday', value: 'feb 12, 2004' },
     { key: 'Phone', value: '+1 876-369-9009' },
-    { key: 'Email', value: 'devis@example.com' },
+    { key: 'Email', value: 'atifasif3301@gmail.com' },
     { key: 'From', value: '2661 Hich meadow lane bear creek' },
     { key: 'Language', value: 'English, Germanic' },
     { key: 'Freelance', value: 'Available' }
