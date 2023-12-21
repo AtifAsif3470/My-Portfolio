@@ -1,10 +1,10 @@
 export const headerLink = [
-    { name: "HOME", href: '#' },
-    { name: "ABOUT", href: '#' },
-    { name: "RESUME", href: '#' },
-    { name: "PORTFOLIO", href: '#' },
-    { name: "BLOG", href: '#' },
-    { name: "CONTACT", href: '#' },
+    { name: "HOME", href: 'home' },
+    { name: "ABOUT", href: 'about' },
+    { name: "RESUME", href: 'resume' },
+    { name: "PORTFOLIO", href: 'portfolio' },
+    { name: "BLOG", href: 'blog' },
+    { name: "CONTACT", href: 'contact' },
 ]
 
 export const UserData = [

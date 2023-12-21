@@ -1,4 +1,9 @@
 import style from "./style.module.scss"
+import { VscGraph } from "react-icons/vsc";
+import { MdOutlineDesk, MdResetTv } from "react-icons/md";
+import { LuLampDesk } from "react-icons/lu";
+import { GiSkeletalHand } from "react-icons/gi";
+import { TbDeviceMobileCode } from "react-icons/tb";
 
 
 const Services = () => {
@@ -10,18 +15,33 @@ const Services = () => {
             </div>
             <div className={style.ServicesBox}>
                 <div className={style.boxDiv}>
-                    <div className={style.iconDiv}></div>
+                    <div className={style.iconDiv}><GiSkeletalHand /></div>
                     <h2 className={style.iconboxTitle}>Sketches</h2>
                     <div>Lorem ipsum dolor sittem ametamn elit, per sed do eiusmoad teimpor sittem elit inuning utsed sittem.</div>
                 </div>
                 <div className={style.boxDiv}>
-                    <div className={style.iconDiv}></div>
-                    <h2 className={style.iconboxTitle}>Sketches</h2>
+                    <div className={style.iconDiv}><MdOutlineDesk /></div>
+                    <h2 className={style.iconboxTitle}>UI/UX Design</h2>
                     <div>Lorem ipsum dolor sittem ametamn elit, per sed do eiusmoad teimpor sittem elit inuning utsed sittem.</div>
                 </div>
                 <div className={style.boxDiv}>
-                    <div className={style.iconDiv}></div>
-                    <h2 className={style.iconboxTitle}>Sketches</h2>
+                    <div className={style.iconDiv}><LuLampDesk /></div>
+                    <h2 className={style.iconboxTitle}>Product Design</h2>
+                    <div>Lorem ipsum dolor sittem ametamn elit, per sed do eiusmoad teimpor sittem elit inuning utsed sittem.</div>
+                </div>
+                <div className={style.boxDiv}>
+                    <div className={style.iconDiv}><TbDeviceMobileCode /></div>
+                    <h2 className={style.iconboxTitle}>App Design</h2>
+                    <div>Lorem ipsum dolor sittem ametamn elit, per sed do eiusmoad teimpor sittem elit inuning utsed sittem.</div>
+                </div>
+                <div className={style.boxDiv}>
+                    <div className={style.iconDiv}><VscGraph /></div>
+                    <h2 className={style.iconboxTitle}>Motion Graphics</h2>
+                    <div>Lorem ipsum dolor sittem ametamn elit, per sed do eiusmoad teimpor sittem elit inuning utsed sittem.</div>
+                </div>
+                <div className={style.boxDiv}>
+                    <div className={style.iconDiv}><MdResetTv /></div>
+                    <h2 className={style.iconboxTitle}>Responsive Design</h2>
                     <div>Lorem ipsum dolor sittem ametamn elit, per sed do eiusmoad teimpor sittem elit inuning utsed sittem.</div>
                 </div>
             </div>

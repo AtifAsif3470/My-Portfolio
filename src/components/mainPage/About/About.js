@@ -3,7 +3,7 @@ import { UserData } from '../../../site/Constant';
 
 const About = () => {
     return (
-        <main className={style.main}>
+        <main className={style.main} id="about">
             <div className={style.aboutMe}>
                 <p className={style.Abouttxt}>About me</p>
                 <div className={style.lineDIv}></div>
@@ -21,7 +21,7 @@ const About = () => {
                     <ul className={style.ulstyles}>
                         {UserData.map((val, ind) =>
                             <li key={ind}>
-                                <span style={{marginRight:"30px"}}>{val.key}</span> :
+                                <span style={{ marginRight: "30px" }}>{val.key}</span> :
                                 <span style={{ marginLeft: "7px" }}>{val.value}</span>
                             </li>
                         )}

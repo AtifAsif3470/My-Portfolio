@@ -2,7 +2,7 @@ import style from "./style.module.scss"
 
 const Home = () => {
     return (
-        <main>
+        <main id="home">
             <div className={style.homeImg}>
                 <div className={`container ${style.textDiv}`}>
                     <p className={style.helloIm}>Hello, i'm</p>

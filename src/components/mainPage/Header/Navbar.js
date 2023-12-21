@@ -1,16 +1,28 @@
 import style from "./style.module.scss"
 import { headerLink } from "../../../site/Constant";
 import { MenuOutlined, CloseOutlined } from "@ant-design/icons";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { Link as ScrollLink, Events } from "react-scroll";
 
 const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false)
+    const [activeLink, setActiveLink] = useState('');
+
 
     const menuClick = () => {
         setMenuOpen(!menuOpen);
     };
+    const handleClick = (path) => {
+        setActiveLink(path)
+    }
+    useEffect(() => {
+        Events.scrollEvent.register("begin", handleClick);
+        return () => {
+            Events.scrollEvent.remove("begin");
+        };
+    }, []);
     return (
-        <main className={style.main}>
+        <main className={`sticky-top ${style.main}`}>
             <div className="container">
                 <nav className={style.nav}>
                     <div className={style.logoMain}>
@@ -21,7 +33,13 @@ const Navbar = () => {
                         <ul className={`${menuOpen ? style.opens : ""} ${style.ulStyle}`}>
                             {headerLink.map((val, ind) =>
                                 <li key={ind}>
-                                    <a href={val.href}>{val.name}</a>
+                                    <ScrollLink
+                                        className={`${style.links} ${activeLink === val.href ? style.activeLink : ""}`}
+                                        activeClass={style.active}
+                                        to={val.href}
+                                        onSetActive={handleClick}
+                                    >
+                                        {val.name}</ScrollLink>
                                 </li>
                             )}
                         </ul>

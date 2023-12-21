@@ -5,6 +5,7 @@ import Blog from './components/mainPage/Blog/Blog';
 import Contact from './components/mainPage/Contact/Contact';
 import Navbar from './components/mainPage/Header/Navbar';
 import Home from './components/mainPage/Home/Home';
+import MySkills from './components/mainPage/MySkills/MySkills';
 import Portfolio from './components/mainPage/Portfolio/Portfolo';
 import Resume from './components/mainPage/Resume/Resume';
 import Services from './components/mainPage/Services/Services';
@@ -16,6 +17,7 @@ function App() {
       <Home />
       <About />
       <Services />
+      <MySkills />
       <Resume />
       <Portfolio />
       <Blog />

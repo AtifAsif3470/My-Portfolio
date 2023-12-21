@@ -2,6 +2,7 @@
     text-align: -webkit-center;
     padding-bottom: 50px;
 }
+
 .servictxt {
     font-size: 24px;
     font-weight: 500;
@@ -9,6 +10,7 @@
     color: #fec544;
     letter-spacing: 1px;
 }
+
 .lineDIv {
     width: 168px;
     height: 1px;
@@ -17,31 +19,33 @@
 
 .ServicesBox {
     display: flex;
-    // gap: 20px;
-    // flex-wrap: wrap;
+    gap: 22px;
+    flex-wrap: wrap;
 }
 
 .boxDiv {
     text-align: center;
     padding: 50px 40px;
+    width: 32%;
+
     border-radius: 3px;
     -webkit-transition: all 0.4s ease;
     transition: all 0.4s ease;
     border: 1px solid #232935;
     background-color: #101624;
     color: #a9adb8;
+    &:hover {
+        .iconDiv{
+            border-color: #fec544;
+            color: #fec544;
+        }
+    }
 }
 
 .iconDiv {
     display: flex;
-    // display: -webkit-box;
-    // display: -ms-flexbox;
-    // -webkit-box-align: center;
-    // -ms-flex-align: center;
-    // align-items: center;
-    // -webkit-box-pack: center;
-    // -ms-flex-pack: center;
-    // justify-content: center;
+    align-items: center;
+    justify-content: center;
     height: 90px;
     width: 90px;
     border: 0.5px solid #3f4551;
