@@ -1,4 +1,5 @@
 import './App.css';
+// import Learing from './components/mainPage/Learning/Learning';
 import About from './components/mainPage/About/About';
 import Blog from './components/mainPage/Blog/Blog';
 import Contact from './components/mainPage/Contact/Contact';
@@ -10,6 +11,7 @@ import Services from './components/mainPage/Services/Services';
 function App() {
   return (
     <div>
+      {/* <Learing /> */}
       <Navbar />
       <Home />
       <About />

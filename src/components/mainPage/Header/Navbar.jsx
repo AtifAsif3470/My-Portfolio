@@ -49,3 +49,40 @@ export default Navbar;
 //   transform: rotate(180deg)
 // }
 
+
+
+// remove dependencies
+
+// "@ant-design/charts": "^1.4.2",
+// @types/react-router-dom
+// antd-img-crop
+// react-apexcharts
+// react-bootstrap
+// react-chartjs-2
+// react-input-mask
+// react-spinners
+// fortawesome/fontawesome-free
+// fortawesome/free-regular-svg-icons
+// @types/react-router-dom
+
+// react-select-country-list
+
+// unused components
+
+// calenderViewer
+// delete InfoPopup
+// FooterButton
+// Pagination ?
+// ShowRibbon
+// GrayRingLoader
+// SkeletonHorizontalLoader
+// ViewIcons..
+// TodayActivityTimeLine
+// src/components/mainPage/Branch/Mapautocomplete.tsx
+
+
+// DesignationsForm
+// SearchCanteen
+// SprintModal
+
+// fixScroll
