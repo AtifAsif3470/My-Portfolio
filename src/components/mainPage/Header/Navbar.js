@@ -27,7 +27,7 @@ const Navbar = () => {
                 <nav className={style.nav}>
                     <div className={style.logoMain}>
                         <img src="premiums.jpg" className={style.logoImg} alt="blackCoder" />
-                        <a href="#" className={style.hrefstyle}><span style={{ color: "#FEC544" }}>D</span>avis</a>
+                        <ScrollLink to="home" className={style.hrefstyle}><span style={{ color: "#FEC544" }}>D</span>avis</ScrollLink>
                     </div>
                     <div>
                         <ul className={`${menuOpen ? style.opens : ""} ${style.ulStyle}`}>
