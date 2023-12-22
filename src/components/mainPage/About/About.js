@@ -13,10 +13,10 @@ const About = () => {
                     <img src="apple.jpg" alt="about" />
                 </div>
                 <div>
-                    <h2 className={style.blockTitle}>Hi There! I'm Edward Davis</h2>
-                    <h4 className={style.blockSubTitle}>Visual Designer</h4>
+                    <h2 className={style.blockTitle}>Hi There! I'm Atif Asif</h2>
+                    <h4 className={style.blockSubTitle}>Web Developer</h4>
                     <div className={style.blockTxt}>
-                        <p>I am a Visual Designer with a strong focus on digital branding. Visul design seeks to attract, inspire, create desires and motivate people to respond to messages, with a view to making a favorable impact.</p>
+                        <p>As a Web Developer, I specialize in creating immersive digital experiences that seamlessly blend cutting-edge technology with a strong focus on digital branding.</p>
                     </div>
                     <ul className={style.ulstyles}>
                         {UserData.map((val, ind) =>

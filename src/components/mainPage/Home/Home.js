@@ -6,8 +6,8 @@ const Home = () => {
             <div className={style.homeImg}>
                 <div className={`container ${style.textDiv}`}>
                     <p className={style.helloIm}>Hello, i'm</p>
-                    <h1 className={style.edward}>Edward Davis</h1>
-                    <p className={style.visual}>Visual Designer</p>
+                    <h1 className={style.edward}>Atif Asif</h1>
+                    <p className={style.visual}>Web Developer</p>
                     <button className={style.btnHire}>Hire me</button>
                 </div>
                 <div className={style.divs}>

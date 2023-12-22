@@ -14,7 +14,7 @@
 .lineDIv {
     width: 168px;
     height: 1px;
-    border: 1px solid #3F4551;
+    border: 1px solid #fec544;
 }
 
 .ServicesBox {
@@ -27,13 +27,11 @@
     text-align: center;
     padding: 50px 40px;
     width: 32%;
-
-    border-radius: 3px;
+    border-radius: 8px;
     -webkit-transition: all 0.4s ease;
     transition: all 0.4s ease;
-    border: 1px solid #232935;
-    background-color: #101624;
-    color: #a9adb8;
+    background-color: #635c76e3;
+    color: white;
     &:hover {
         .iconDiv{
             border-color: #fec544;
@@ -48,9 +46,9 @@
     justify-content: center;
     height: 90px;
     width: 90px;
-    border: 0.5px solid #3f4551;
+    border: 0.5px solid #898e99;
     border-radius: 50%;
-    background-color: #070d1b;
+    background-color: #635c76e3;
     margin: auto;
     font-size: 50px;
     margin-bottom: 28px;
