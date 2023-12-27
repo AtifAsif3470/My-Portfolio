@@ -56,6 +56,9 @@ const Navbar = () => {
 }
 export default Navbar;
 
+
+// delete popup icon rotate //
+
 // border-radius: 17px;
 // padding: 7px 7px;
 // color: #fff;
@@ -67,7 +70,7 @@ export default Navbar;
 //   transform: rotate(180deg)
 // }
 
-
+///////////////
 
 // remove dependencies
 
