@@ -57,7 +57,7 @@ const Navbar = () => {
 export default Navbar;
 
 
-// delete popup icon rotate //
+/// delete popup icon rotate //
 
 // border-radius: 17px;
 // padding: 7px 7px;
